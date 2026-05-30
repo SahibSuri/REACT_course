@@ -1,24 +1,11 @@
 import React from "react"
-function Title(){
-  return <h1>I am a title</h1>
-}
-
-function Description(){
-  return <p>Hello i am a description body!</p>
-}
-
+import Title from './components/Title'
+import Description from "./components/Description"
+import ProductTab from "./components/ProductTab"
 function App(){
   return(
-    <div>
-      <Title/>
-      <Description/>
-      <Title/>
-      <Description/>
-      <Title/>
-      <Description/>
-      <Title/>
-      <Description/>
-    </div>
+    
+    <ProductTab/>
   )
 }
 
